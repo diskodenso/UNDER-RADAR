@@ -1,0 +1,70 @@
+body {
+  background-image: url("./pictures/iced\ out\ dog.jpg");
+  opacity: 0, 5;
+  height: 100%;
+  width: 100%;
+}
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 4cm;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: monospace;
+  font-weight: lighter;
+  background-color: lightsalmon;
+  border: 9px solid red;
+  margin: 2px;
+}
+p {
+  color: black;
+  font-size: 1cm;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border: 9px solid black;
+}
+.background-container {
+  width: 100%;
+  height: 100%;
+  background-color: pink;
+  opacity: 0.3;
+}
+.navigation-link {
+  color: black;
+  text-decoration: none;
+}
+.navbar-container {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  color: black;
+}
+
+.navbar-container > div > a {
+  margin-left: 15px;
+}
+
+.navbar {
+  color: white;
+  text-decoration: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h2 {
+  text-align: center;
+  border: 9px solid black;
+  font-size: 1cm;
+}
+
+.release-container > p {
+  color: white;
+  border: none;
+}
+
+.release-container {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
